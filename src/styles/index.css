@@ -83,10 +83,10 @@ main {
 
 .input-titulo {
     position: relative;
-    bottom: 18px;
-    height: 30px;
+    top: -12px;
+    height: 40px;
     width: 250px;
-    padding: 20px;
+    padding: 5px 5px 5px 20px;
     border-radius: 5px;
     border: 2px solid var(--grey-4);
     color: var(--grey-1);
@@ -97,25 +97,25 @@ main {
     color: var(--grey-3);
 }
 
-.input-description {
+.textarea {
     position: relative;
-    top: -15px;
+    top: -14px;
     height: 100px;
     width: 250px;
-    padding: 20px;
+    padding: 10px 5px 5px 20px;
     border-radius: 5px;
     border: 2px solid var(--grey-4);
     color: var(--grey-1);
 
 }
 
-.input-description::placeholder {
+.textarea::placeholder {
     color: var(--grey-3);
 }
 
 .postar {
     position: relative;
-    top: -10px;
+    top: -17px;
     left: 85px;
     height: 30px;
     width: 80px;
@@ -125,3 +125,4 @@ main {
     border: 2px solid var(--grey-4);
 
 }
+
