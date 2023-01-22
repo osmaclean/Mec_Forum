@@ -44,12 +44,14 @@
 
 
 nav {
-    /* position: fixed; */
+    position: fixed;
+    z-index: 1;
     height: 3.725rem;
     display: flex;
     background-color: var(--grey-1);
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 
 }
 

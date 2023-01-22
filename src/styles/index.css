@@ -46,7 +46,7 @@ main {
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 350px;
+    height: 400px;
     width: 100%;
     justify-content: space-evenly;
 }
@@ -65,6 +65,8 @@ main {
     justify-content: flex-start;
     padding: 0px 0px 0px 15px;
     gap: 15px;
+    position: absolute;
+    top: 80px;
 }
 
 .post_text span {
@@ -83,7 +85,7 @@ main {
 
 .input-titulo {
     position: relative;
-    top: -12px;
+    top: 117px;
     height: 40px;
     width: 250px;
     padding: 5px 5px 5px 20px;
@@ -99,7 +101,7 @@ main {
 
 .textarea {
     position: relative;
-    top: -14px;
+    top: 72px;
     height: 100px;
     width: 250px;
     padding: 10px 5px 5px 20px;
@@ -115,7 +117,7 @@ main {
 
 .postar {
     position: relative;
-    top: -17px;
+    top: 26px;
     left: 85px;
     height: 30px;
     width: 80px;
