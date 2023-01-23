@@ -46,17 +46,22 @@
     font-weight: var(--font-weight-title-2);
     line-height: var(--line-height-title-2);
     padding: 13px 17px;
+    position: relative;
+    top: 200px;
 }
 
 .sugests {
     margin-top: 3px;
+    position: relative;
+    top: 196px;
     padding: 10px;
     height: 130px;
     width: 100%;
     background-color: var(--grey-5);
     overflow-x: scroll;
-    flex-direction: row;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 
 
 }
@@ -132,4 +137,15 @@
     cursor: pointer;
 }
 
-
+@media (min-width: 760px) {
+    .sugests {
+        margin-top: 3px;
+        padding: 10px;
+        height: 130px;
+        width: 100%;
+        background-color: var(--grey-5);
+        overflow-x: scroll;
+        flex-direction: row;
+        display: flex;
+    }
+}
