@@ -44,7 +44,7 @@
 #section-post {
  width: 100%;
  height: 550px;
- margin-top: 213px;
+ margin-top: 255px;
 
 }
 
@@ -198,11 +198,66 @@
 
 
 
+
 @media (min-width: 760px) {
 
+    #section-post {
+        width: 50%;
+        height: 550px;
+        margin-top: 100px;
+    }
 
+    .post {
+        width: 100%;
+        
+        position: relative;
+    }
 
+    .card-post {
+        padding: 0px 10px 0px 5px;
+        width: 100%;
+        max-width: 100%;
+        height: 260px;
+    }
 
+        .open-post {
+            background-color: var(--color-primary-1);
+            color: var(--white);
+            border: 2px solid var(--color-primary-1);
+            border-radius: 5px;
+            padding: 9px;
+            height: 40px;
+            position: relative;
+            right: 55px;
+            font-size: var(--font-size-text-2);
+            line-height: var(--line-height-text-2);
+        }
 
+        .heath-button {
+            background-color: transparent;
+            width: 20px;
+            height: 100%;
+            border: none;
+            cursor: pointer;
+            position: relative;
+            top: 1px;
+            right: 150px;
+        }
+
+        #botoes-post span {
+            height: 100%;
+            width: 20px;
+            position: relative;
+            top: 5px;
+            right: 140px;
+        }
+
+        .container-post {
+            height: 110px;
+            width: 100%;
+            display: flex;
+            gap: 25px;
+            align-items: center;
+        }
 
 }

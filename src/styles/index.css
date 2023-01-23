@@ -86,6 +86,7 @@ main {
 .input-titulo {
     position: relative;
     top: 181px;
+    left: 15px;
     height: 40px;
     width: 250px;
     padding: 5px 5px 5px 20px;
@@ -102,6 +103,7 @@ main {
 .textarea {
     position: relative;
     top: 190px;
+    left: 15px;
     height: 100px;
     width: 250px;
     padding: 10px 5px 5px 20px;
@@ -118,7 +120,7 @@ main {
 .postar {
     position: relative;
     top: 200px;
-    left: 85px;
+    left: 185px;
     height: 30px;
     width: 80px;
     border-radius: 5px;
@@ -133,17 +135,25 @@ main {
 
     main {
         display: flex;
-        flex-direction: column;
         height: 400px;
         width: 100%;
-        justify-content: space-evenly;
-        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    #div-main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 
     .perfil-post {
         width: 52px;
         height: 52px;
         border-radius: 2rem;
+        position: relative;
+        bottom: 34px;
+
     }
 
     .post_text span {
@@ -151,18 +161,22 @@ main {
         font-weight: var(--font-weight-text-1);
         line-height: var(--line-height-text-2);
         color: var(--grey-3);
+        position: relative;
+        bottom: 34px;
     }
-    
+
     .post_text h2 {
         color: var(--grey-1);
         font-size: var(--font-size-title-2);
         font-weight: var(--font-weight-title-2);
         line-height: var(--line-height-text-1);
+        position: relative;
+        bottom: 34px;
     }
 
     .post {
         display: flex;
-        width: 100%;
+        width: 50%;
         height: 100px;
         align-items: center;
         justify-content: flex-start;
@@ -174,10 +188,10 @@ main {
 
     .input-titulo {
         position: relative;
-        top: 133px;
+        top: 48px;
         left: 24px;
-        height: 45px;
-        width: 45%;
+        height: 50px;
+        width: 85%;
         padding: 5px 5px 5px 20px;
         border-radius: 5px;
         border: 2px solid var(--grey-4);
@@ -192,10 +206,10 @@ main {
 
     .textarea {
         position: relative;
-        top: 100px;
+        top: 68px;
         left: 24px;
-        height: 120px;
-        width: 45%;
+        height: 150px;
+        width: 85%;
         padding: 10px 5px 5px 20px;
         border-radius: 5px;
         border: 2px solid var(--grey-4);
@@ -212,17 +226,17 @@ main {
 
     .postar {
         position: relative;
-        top: 66px;
-        left: 285px;
-        height: 30px;
-        width: 85px;
-        border-radius: 5px;
-        color: var(--grey-3);
-        background-color: var(--grey-4);
-        border: 2px solid var(--grey-4);
-        font-size: var(--font-size-text-1);
-        line-height: var(--line-height-text-1);
-        letter-spacing: 1px;
+    top: 88px;
+    left: 24px;
+    height: 30px;
+    width: 85%;
+    border-radius: 5px;
+    color: var(--grey-3);
+    background-color: var(--grey-4);
+    border: 2px solid var(--grey-4);
+    font-size: var(--font-size-text-1);
+    line-height: var(--line-height-text-1);
+    letter-spacing: 1px;
 
     }
 }

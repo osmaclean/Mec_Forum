@@ -42,20 +42,24 @@
 }
 
 #sugest-title {
-    font-size: var(--font-size-title-2);
+    font-size: var(--font-size-title-3);
     font-weight: var(--font-weight-title-2);
     line-height: var(--line-height-title-2);
     padding: 13px 17px;
     position: relative;
-    top: 200px;
+    right: 10px;
+}
+
+#div-sugest {
+    width: 100%;
 }
 
 .sugests {
     margin-top: 3px;
     position: relative;
-    top: 196px;
+    top: 226px;
     padding: 10px;
-    height: 130px;
+    height: 230px;
     width: 100%;
     background-color: var(--grey-5);
     overflow-x: scroll;
@@ -105,8 +109,8 @@
 .follow {
     width: 78px;
     position: relative;
-    bottom: -68px;
-    right: 169px;
+    bottom: 44px;
+    right: -6px;
     padding: 5px;
     height: 30px;
     color: var(--white);
@@ -122,8 +126,8 @@
 .follow-us {
     width: 78px;
     position: relative;
-    bottom: -68px;
-    right: 169px;
+    bottom: 44px;
+    right: -6px;
     padding: 5px;
     height: 30px;
     color: var(--grey-1);
@@ -138,14 +142,90 @@
 }
 
 @media (min-width: 760px) {
-    .sugests {
-        margin-top: 3px;
-        padding: 10px;
-        height: 130px;
+
+    #div-sugest {
         width: 100%;
-        background-color: var(--grey-5);
-        overflow-x: scroll;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    #section-aside {
+        width: 50%;
+        
+       
+    }
+
+    #sugest-title {
+        font-size: var(--font-size-title-2);
+        font-weight: var(--font-weight-title-2);
+        line-height: var(--line-height-title-2);
+        padding: 13px 0px 20px 17px;
+        position: relative;
+        top: -10px;
+        left: 5px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .sugests {
+        padding: 10px;
+        height: 100vh;
+        width: 100%;
+        background-color: transparent;
+        overflow: hidden;
+        justify-content: center;
+        align-items: flex-start;
         flex-direction: row;
         display: flex;
+    }
+
+    .follow {
+        width: 78px;
+        position: relative;
+        bottom: 39px;
+        right: -151px;
+        padding: 5px;
+        height: 30px;
+        color: var(--white);
+        font-size: var(--font-size-text-2);
+        letter-spacing: 1px;
+        line-height: 16.94px;
+        font-weight: var(--font-weight-title-1);
+        border: 2px solid var(--color-primary-1);
+        border-radius: 5px;
+        background-color: var(--color-primary-1);
+    }
+
+    .follow-us {
+        width: 78px;
+        position: relative;
+        bottom: 39px;
+        right: -151px;
+        padding: 5px;
+        height: 30px;
+        color: var(--grey-1);
+        font-size: var(--font-size-text-2);
+        letter-spacing: 1px;
+        line-height: 16.94px;
+        font-weight: var(--font-weight-title-1);
+        border: 2px solid var(--grey-1);
+        border-radius: 5px;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .container {
+        height: 50px;
+        width: 230px;
+        display: flex;
+        gap: 15px;
     }
 }
