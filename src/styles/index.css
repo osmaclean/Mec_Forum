@@ -191,7 +191,7 @@ main {
         top: 48px;
         left: 24px;
         height: 50px;
-        width: 85%;
+        width: 50%;
         padding: 5px 5px 5px 20px;
         border-radius: 5px;
         border: 2px solid var(--grey-4);
@@ -209,7 +209,7 @@ main {
         top: 68px;
         left: 24px;
         height: 150px;
-        width: 85%;
+        width: 50%;
         padding: 10px 5px 5px 20px;
         border-radius: 5px;
         border: 2px solid var(--grey-4);
@@ -226,17 +226,17 @@ main {
 
     .postar {
         position: relative;
-    top: 88px;
-    left: 24px;
-    height: 30px;
-    width: 85%;
-    border-radius: 5px;
-    color: var(--grey-3);
-    background-color: var(--grey-4);
-    border: 2px solid var(--grey-4);
-    font-size: var(--font-size-text-1);
-    line-height: var(--line-height-text-1);
-    letter-spacing: 1px;
+        top: 88px;
+        left: 24px;
+        height: 30px;
+        width: 50%;
+        border-radius: 5px;
+        color: var(--grey-3);
+        background-color: var(--grey-4);
+        border: 2px solid var(--grey-4);
+        font-size: var(--font-size-text-1);
+        line-height: var(--line-height-text-1);
+        letter-spacing: 1px;
 
     }
 }
